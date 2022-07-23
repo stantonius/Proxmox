@@ -73,7 +73,7 @@ apt-get install -y nodejs &>/dev/null
 msg_ok "Installed Node.js"
 
 msg_info "Installing n8n (Patience)"
-npm install --global n8n &>/dev/null
+npm install --location=global n8n &>/dev/null
 msg_ok "Installed n8n"
 
 msg_info "Creating Service"
